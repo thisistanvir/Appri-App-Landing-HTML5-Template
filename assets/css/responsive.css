@@ -1,0 +1,232 @@
+/* Normal desktop :1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .hero-img {
+        margin-right: -65px;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+    .hero-area.hero-area2 {
+        height: 1100px;
+    }
+    .hero-img.hero-img-5 {
+        margin-right: -110px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero-btn .btn, .working-text .btn {
+        padding: 25px 40px;
+    }
+    .slider-shape .shape {
+        left: 0;
+        width: 100px;
+    }
+    .hero-area {
+        height: 900px;
+    }
+    .main-menu li {
+        margin: 0 12px;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .hero-img {
+        margin-right: -50px;
+    }
+    .shape-img .app-shape1, .shape-img .app-shape2 {
+        width: 250px;
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .hero-content p {
+        font-size: 23px;
+    }
+    .feature-text p {
+        padding: 0;
+    }
+    .video-wrapper {
+        height: 425px;
+    }
+    .single-pricing-box {
+        padding: 20px 0;
+    }
+    .pricing-body .grad-btn, .pricing-body .border-btn {
+        padding: 20px 30px;
+    }
+    .news-content-wrapper {
+        padding: 0 20px;
+    }
+    .news-content {
+        padding: 31px 20px;
+    }
+    .hero-area.hero-area3 {
+        height: 1090px;
+        overflow: hidden;
+    }
+    .hero-img.hero-img3 {
+        margin-right: -200px;
+    }
+    .hero-area3 .slider-shape .shape.shape-2 {
+        bottom: 40px;
+    }
+    .choose-img img {
+        width: 100%;
+    }
+    .choose-wrapper {
+        margin-bottom: 70px;
+    }
+    .hero-area.hero-area5 {
+        height: 1066px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .feature-text p {
+        padding: 0;
+    }
+    .slider-shape .shape {
+        top: 10%;
+        left: 0;
+        width: 100px;
+    }
+    .slider-shape .shape.shape-2 {
+        left: 50%;
+        bottom: 40px;
+    }
+    .hero-content {
+        margin-top: 230px;
+    }
+    .hero-area, .hero-area.hero-area3 {
+        height: 750px;
+    }
+    .feature-box,  .news-box, .single-pricing-box {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .feature-box.feature-box2 {
+        margin-top: 80px;
+    }
+    .video-wrapper {
+        height: 425px;
+    }
+    .subscribe-text {
+        margin-bottom: 30px;
+    }
+    .single-testimonial p {
+        font-size: 25px;
+    }
+    .fact-title.text-center h2 {
+        font-size: 30px;
+    }
+    .choose-img img {
+        width: inherit;
+    }
+    .choose-img {
+        margin-bottom: 0px;
+    }
+    .hero-area4 .hero-content, .hero-area5 .hero-content {
+        margin-top: 125px;
+    }
+
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .testimonial-img-active {
+        width: auto;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+    }
+    .hero-btn .btn {
+        margin-right: 0;
+        padding: 20px 40px;
+        margin-bottom: 25px;
+    }
+    
+    .hero-btn .read-btn {
+        margin-right: 0;
+    }
+    .fact-box {
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .section-title p {
+        font-size: 20px;
+    }
+    .feature-box, .news-box, .single-pricing-box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .working-text h3 {
+        font-size: 25px;
+    }
+    .working-text p {
+        text-align: inherit;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .single-testimonial p {
+        font-size: 18px;
+    }
+    .faq-content .card-header a[aria-expanded=false]:after {
+        line-height: 26px;
+    }
+    .faq-content .card-header a[aria-expanded=true]:after {
+        line-height: 23px;
+    }
+    .brand-title.text-center h2 {
+        font-size: 25px;
+    }
+    .news-content-wrapper {
+        padding: 0 20px;
+    }
+    .news-content {
+        padding: 20px 15px;
+    }
+    .subscribe-form input[type=submit] {
+        position: relative;
+        -webkit-transform: none;
+                transform: none;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .apps-link img {
+        margin-bottom: 30px;
+    }
+    .choose-img img {
+        width: 100%;
+    }
+    .fact-title.text-center h2 {
+        font-size: 22px;
+    }
+    .single-chose-text {
+        float: left;
+        margin-top: 20px;
+    }
+    .hero-area4 .hero-content p {
+        margin-bottom: 5px;
+    }
+    .feature-box.feature-box4 {
+        padding: 20px;
+    }
+    .section-title h3 {
+        font-size: 24px;
+    }
+}
